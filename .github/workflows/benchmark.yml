@@ -7,8 +7,8 @@ on:
         description: 'Total number of requests for the benchmark'
         required: false
         default: '2000'
-  schedule:
-    - cron: '0 3 * * *'
+  # schedule:
+  #   - cron: '0 3 * * *'
 
 jobs:
   benchmark:

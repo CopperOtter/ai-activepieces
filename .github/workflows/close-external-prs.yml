@@ -3,8 +3,8 @@ name: Close external PRs
 on:
   pull_request_target:
     types: [opened, reopened]
-  schedule:
-    - cron: '0 3 * * *'
+  # schedule:
+  #   - cron: '0 3 * * *'
 
 permissions:
   pull-requests: write
